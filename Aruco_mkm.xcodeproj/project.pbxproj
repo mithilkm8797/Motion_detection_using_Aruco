@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0667407929F6D94C008277F0 /* Aruco_mkmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667407829F6D94C008277F0 /* Aruco_mkmApp.swift */; };
+		0667407B29F6D94C008277F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667407A29F6D94C008277F0 /* ContentView.swift */; };
+		0667407D29F6D94F008277F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0667407C29F6D94F008277F0 /* Assets.xcassets */; };
+		0667408129F6D94F008277F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0667408029F6D94F008277F0 /* Preview Assets.xcassets */; };
+		0667408B29F6D94F008277F0 /* Aruco_mkmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667408A29F6D94F008277F0 /* Aruco_mkmTests.swift */; };
+		0667409529F6D94F008277F0 /* Aruco_mkmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667409429F6D94F008277F0 /* Aruco_mkmUITests.swift */; };
+		0667409729F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667409629F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0667408729F6D94F008277F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0667406D29F6D94C008277F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0667407429F6D94C008277F0;
+			remoteInfo = Aruco_mkm;
+		};
+		0667409129F6D94F008277F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0667406D29F6D94C008277F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0667407429F6D94C008277F0;
+			remoteInfo = Aruco_mkm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0667407529F6D94C008277F0 /* Aruco_mkm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aruco_mkm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0667407829F6D94C008277F0 /* Aruco_mkmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aruco_mkmApp.swift; sourceTree = "<group>"; };
+		0667407A29F6D94C008277F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0667407C29F6D94F008277F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0667407E29F6D94F008277F0 /* Aruco_mkm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aruco_mkm.entitlements; sourceTree = "<group>"; };
+		0667408029F6D94F008277F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0667408629F6D94F008277F0 /* Aruco_mkmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aruco_mkmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0667408A29F6D94F008277F0 /* Aruco_mkmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aruco_mkmTests.swift; sourceTree = "<group>"; };
+		0667409029F6D94F008277F0 /* Aruco_mkmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aruco_mkmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0667409429F6D94F008277F0 /* Aruco_mkmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aruco_mkmUITests.swift; sourceTree = "<group>"; };
+		0667409629F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aruco_mkmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0667407229F6D94C008277F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0667408329F6D94F008277F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0667408D29F6D94F008277F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0667406C29F6D94C008277F0 = {
+			isa = PBXGroup;
+			children = (
+				0667407729F6D94C008277F0 /* Aruco_mkm */,
+				0667408929F6D94F008277F0 /* Aruco_mkmTests */,
+				0667409329F6D94F008277F0 /* Aruco_mkmUITests */,
+				0667407629F6D94C008277F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0667407629F6D94C008277F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0667407529F6D94C008277F0 /* Aruco_mkm.app */,
+				0667408629F6D94F008277F0 /* Aruco_mkmTests.xctest */,
+				0667409029F6D94F008277F0 /* Aruco_mkmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0667407729F6D94C008277F0 /* Aruco_mkm */ = {
+			isa = PBXGroup;
+			children = (
+				0667407829F6D94C008277F0 /* Aruco_mkmApp.swift */,
+				0667407A29F6D94C008277F0 /* ContentView.swift */,
+				0667407C29F6D94F008277F0 /* Assets.xcassets */,
+				0667407E29F6D94F008277F0 /* Aruco_mkm.entitlements */,
+				0667407F29F6D94F008277F0 /* Preview Content */,
+			);
+			path = Aruco_mkm;
+			sourceTree = "<group>";
+		};
+		0667407F29F6D94F008277F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0667408029F6D94F008277F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0667408929F6D94F008277F0 /* Aruco_mkmTests */ = {
+			isa = PBXGroup;
+			children = (
+				0667408A29F6D94F008277F0 /* Aruco_mkmTests.swift */,
+			);
+			path = Aruco_mkmTests;
+			sourceTree = "<group>";
+		};
+		0667409329F6D94F008277F0 /* Aruco_mkmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0667409429F6D94F008277F0 /* Aruco_mkmUITests.swift */,
+				0667409629F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift */,
+			);
+			path = Aruco_mkmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0667407429F6D94C008277F0 /* Aruco_mkm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0667409A29F6D94F008277F0 /* Build configuration list for PBXNativeTarget "Aruco_mkm" */;
+			buildPhases = (
+				0667407129F6D94C008277F0 /* Sources */,
+				0667407229F6D94C008277F0 /* Frameworks */,
+				0667407329F6D94C008277F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aruco_mkm;
+			productName = Aruco_mkm;
+			productReference = 0667407529F6D94C008277F0 /* Aruco_mkm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0667408529F6D94F008277F0 /* Aruco_mkmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0667409D29F6D94F008277F0 /* Build configuration list for PBXNativeTarget "Aruco_mkmTests" */;
+			buildPhases = (
+				0667408229F6D94F008277F0 /* Sources */,
+				0667408329F6D94F008277F0 /* Frameworks */,
+				0667408429F6D94F008277F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0667408829F6D94F008277F0 /* PBXTargetDependency */,
+			);
+			name = Aruco_mkmTests;
+			productName = Aruco_mkmTests;
+			productReference = 0667408629F6D94F008277F0 /* Aruco_mkmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0667408F29F6D94F008277F0 /* Aruco_mkmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066740A029F6D94F008277F0 /* Build configuration list for PBXNativeTarget "Aruco_mkmUITests" */;
+			buildPhases = (
+				0667408C29F6D94F008277F0 /* Sources */,
+				0667408D29F6D94F008277F0 /* Frameworks */,
+				0667408E29F6D94F008277F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0667409229F6D94F008277F0 /* PBXTargetDependency */,
+			);
+			name = Aruco_mkmUITests;
+			productName = Aruco_mkmUITests;
+			productReference = 0667409029F6D94F008277F0 /* Aruco_mkmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0667406D29F6D94C008277F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0667407429F6D94C008277F0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					0667408529F6D94F008277F0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0667407429F6D94C008277F0;
+					};
+					0667408F29F6D94F008277F0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 0667407429F6D94C008277F0;
+					};
+				};
+			};
+			buildConfigurationList = 0667407029F6D94C008277F0 /* Build configuration list for PBXProject "Aruco_mkm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0667406C29F6D94C008277F0;
+			productRefGroup = 0667407629F6D94C008277F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0667407429F6D94C008277F0 /* Aruco_mkm */,
+				0667408529F6D94F008277F0 /* Aruco_mkmTests */,
+				0667408F29F6D94F008277F0 /* Aruco_mkmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0667407329F6D94C008277F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0667408129F6D94F008277F0 /* Preview Assets.xcassets in Resources */,
+				0667407D29F6D94F008277F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0667408429F6D94F008277F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0667408E29F6D94F008277F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0667407129F6D94C008277F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0667407B29F6D94C008277F0 /* ContentView.swift in Sources */,
+				0667407929F6D94C008277F0 /* Aruco_mkmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0667408229F6D94F008277F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0667408B29F6D94F008277F0 /* Aruco_mkmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0667408C29F6D94F008277F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0667409529F6D94F008277F0 /* Aruco_mkmUITests.swift in Sources */,
+				0667409729F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0667408829F6D94F008277F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0667407429F6D94C008277F0 /* Aruco_mkm */;
+			targetProxy = 0667408729F6D94F008277F0 /* PBXContainerItemProxy */;
+		};
+		0667409229F6D94F008277F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0667407429F6D94C008277F0 /* Aruco_mkm */;
+			targetProxy = 0667409129F6D94F008277F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0667409829F6D94F008277F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0667409929F6D94F008277F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0667409B29F6D94F008277F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aruco_mkm/Aruco_mkm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aruco_mkm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rwth.Aruco-mkm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0667409C29F6D94F008277F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aruco_mkm/Aruco_mkm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aruco_mkm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rwth.Aruco-mkm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0667409E29F6D94F008277F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rwth.Aruco-mkmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aruco_mkm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aruco_mkm";
+			};
+			name = Debug;
+		};
+		0667409F29F6D94F008277F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rwth.Aruco-mkmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aruco_mkm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aruco_mkm";
+			};
+			name = Release;
+		};
+		066740A129F6D94F008277F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rwth.Aruco-mkmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aruco_mkm;
+			};
+			name = Debug;
+		};
+		066740A229F6D94F008277F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rwth.Aruco-mkmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aruco_mkm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0667407029F6D94C008277F0 /* Build configuration list for PBXProject "Aruco_mkm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0667409829F6D94F008277F0 /* Debug */,
+				0667409929F6D94F008277F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0667409A29F6D94F008277F0 /* Build configuration list for PBXNativeTarget "Aruco_mkm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0667409B29F6D94F008277F0 /* Debug */,
+				0667409C29F6D94F008277F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0667409D29F6D94F008277F0 /* Build configuration list for PBXNativeTarget "Aruco_mkmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0667409E29F6D94F008277F0 /* Debug */,
+				0667409F29F6D94F008277F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066740A029F6D94F008277F0 /* Build configuration list for PBXNativeTarget "Aruco_mkmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066740A129F6D94F008277F0 /* Debug */,
+				066740A229F6D94F008277F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0667406D29F6D94C008277F0 /* Project object */;
+}
