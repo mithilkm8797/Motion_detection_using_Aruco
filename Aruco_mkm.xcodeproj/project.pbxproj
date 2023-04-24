@@ -14,6 +14,7 @@
 		0667408B29F6D94F008277F0 /* Aruco_mkmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667408A29F6D94F008277F0 /* Aruco_mkmTests.swift */; };
 		0667409529F6D94F008277F0 /* Aruco_mkmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667409429F6D94F008277F0 /* Aruco_mkmUITests.swift */; };
 		0667409729F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667409629F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift */; };
+		066740A429F6EAB0008277F0 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 066740A329F6EAAF008277F0 /* lib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0667409029F6D94F008277F0 /* Aruco_mkmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aruco_mkmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0667409429F6D94F008277F0 /* Aruco_mkmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aruco_mkmUITests.swift; sourceTree = "<group>"; };
 		0667409629F6D94F008277F0 /* Aruco_mkmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aruco_mkmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		066740A329F6EAAF008277F0 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../usr/local/Cellar/opencv/4.7.0_3/lib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		0667406C29F6D94C008277F0 = {
 			isa = PBXGroup;
 			children = (
+				066740A329F6EAAF008277F0 /* lib */,
 				0667407729F6D94C008277F0 /* Aruco_mkm */,
 				0667408929F6D94F008277F0 /* Aruco_mkmTests */,
 				0667409329F6D94F008277F0 /* Aruco_mkmUITests */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066740A429F6EAB0008277F0 /* lib in Resources */,
 				0667408129F6D94F008277F0 /* Preview Assets.xcassets in Resources */,
 				0667407D29F6D94F008277F0 /* Assets.xcassets in Resources */,
 			);
